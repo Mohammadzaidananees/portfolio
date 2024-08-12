@@ -25,13 +25,15 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Youtbe2.0"
+              description="This project is a dynamic and engaging YouTube clone developed using React.js and Material-UI, showcasing a sophisticated understanding of modern web development practices. The application mirrors key features of the popular video-sharing platform, offering a streamlined user experience with a contemporary design aesthetic.
+
+"
+              ghLink="https://github.com/Mohammadzaidananees/Youtube2.0"
+              demoLink="https://cloneyoutbe.netlify.app/"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -52,8 +54,8 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
-
+          </Col> */}
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -74,9 +76,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +88,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
